@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
+  m_ChildControlWidth: 1
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -515,7 +515,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 540, y: 0}
-  m_SizeDelta: {x: 800, y: 600}
+  m_SizeDelta: {x: 1080, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705674056
 MonoBehaviour:
@@ -648,7 +648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4972637976334634223, guid: e2cc3623ae1932e47b1650aa20953d91, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 400
+      value: 540
       objectReference: {fileID: 0}
     - target: {fileID: 4972637976334634223, guid: e2cc3623ae1932e47b1650aa20953d91, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -688,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4972637977624838018, guid: e2cc3623ae1932e47b1650aa20953d91, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 800
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4972637977624838018, guid: e2cc3623ae1932e47b1650aa20953d91, type: 3}
       propertyPath: m_SizeDelta.y
