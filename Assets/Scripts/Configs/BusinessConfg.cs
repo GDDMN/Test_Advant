@@ -5,6 +5,7 @@ using UnityEngine;
 public struct Upgrade
 {
     public int cost;
+    [Range(0, 4)]
     public float incomeMultiplier;
 }
 
@@ -12,7 +13,7 @@ public struct Upgrade
 public class BusinessConfg : ScriptableObject
 {
     public int level;
-    public int incomeDelay;
+    public int incomeDelayInSec;
     public int baseCost;
     public int baseIncome;
 
