@@ -1,13 +1,4 @@
-using System;
 using UnityEngine;
-
-[Serializable]
-public struct Upgrade
-{
-    public int cost;
-    [Range(0, 4)]
-    public float incomeMultiplier;
-}
 
 [CreateAssetMenu(fileName = "Business config", menuName = "Configs/Business config", order = 1)]
 public class BusinessConfg : ScriptableObject
